@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- diff html gen, (c) Stephane Rodriguez - feb 2003 -->
+<HTML>
+<HEAD>
+<TITLE> File Diff </TITLE>
+<style type='text/css'>
+<!--
+.N { background-color:white; }
+.C { background-color:#FFFFBB; }
+.A { background-color:#BBFFBB; }
+.D { background-color:#FFBBBB; }
+-->
+</style>
+</HEAD>
+
+<BODY BGCOLOR='#FFFFFF'>
+
+<font size=-1><b>22 changes between the files.</font><br><table border=0 bgcolor=0 cellpadding=1 cellspacing=1 width=100%><tr><td>
+<table width=100% bgcolor=white border=0 cellpadding=0 cellspacing=0>
+<tr bgColor='#EEEEEE' style='color:0'><td width=50%>old version</td><td width=50%>new version&nbsp;&nbsp;&nbsp;(<b style='background-color:#FFFFBB;width:20'>&nbsp;</b>changed&nbsp;&nbsp;<b style='background-color:#BBFFBB;width:20'>&nbsp;</b>added&nbsp;&nbsp;<b style='background-color:#FFBBBB;width:20'>&nbsp;</b>deleted)&nbsp;&nbsp;<FORM ACTION='' style='display:inline'><SELECT id='fontoptions' onchange='maintable.style.fontSize=this.options[this.selectedIndex].value'><option value='6pt'>6pt<option value='7pt'>7pt<option value='8pt'>8pt<option value='9pt' selected>9pt</SELECT> </FORM></td></tr>
+<tr bgColor='#EEEEEE' style='color:0'><td width=50%><code>E:\20-09-18\Asp.net\PersonalityFinder\Output\Test.txt</code></td><td width=50%><code>E:\20-09-18\Asp.net\PersonalityFinder\Output\fac.txt</code></td></tr></table>
+</td></tr>
+</table>
+
+<br>
+
+<table border=0 bgcolor=0 cellpadding=1 cellspacing=1 width=100%><tr><td><table id='maintable' width=100% bgcolor='white' cellpadding=0 cellspacing=0 border=0 style='color:#888888;font-family: Courier New, Helvetica, sans-serif; font-size: 8pt'>
+<tr><td width=50% class='C'><b>0</b> for (i = number - 1; i &gt;= 1; i--)</td><td width=50% class='C'><b>0</b> using System;</td></tr><tr><td width=50%><b>1</b> &nbsp;</td><td width=50% class='A'><b>1</b> using System.Collections.Generic;</td></tr><tr><td width=50%><b>2</b> &nbsp;</td><td width=50% class='A'><b>2</b> using System.Linq;</td></tr><tr><td width=50%><b>3</b> &nbsp;</td><td width=50% class='A'><b>3</b> using System.Text;</td></tr><tr><td width=50%><b>4</b> &nbsp;</td><td width=50% class='A'><b>4</b> &nbsp;</td></tr><tr><td width=50%><b>5</b> &nbsp;</td><td width=50% class='A'><b>5</b> namespace factorial</td></tr><tr><td width=50%><b>6</b> &nbsp;</td><td width=50% class='A'><b>6</b> {</td></tr><tr><td width=50%><b>7</b> &nbsp;</td><td width=50% class='A'><b>7</b> &nbsp;&nbsp;&nbsp;&nbsp;class Program</td></tr><tr><td width=50%><b>8</b> &nbsp;</td><td width=50% class='A'><b>8</b> &nbsp;&nbsp;&nbsp;&nbsp;{</td></tr><tr><td width=50%><b>9</b> &nbsp;</td><td width=50% class='A'><b>9</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;static void Main(string[] args)</td></tr><tr><td width=50%><b>10</b> &nbsp;</td><td width=50% class='A'><b>10</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</td></tr><tr><td width=50%><b>11</b> &nbsp;</td><td width=50% class='A'><b>11</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;int i, number, fact;</td></tr><tr><td width=50%><b>12</b> &nbsp;</td><td width=50% class='A'><b>12</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine("Enter the Number");</td></tr><tr><td width=50%><b>13</b> &nbsp;</td><td width=50% class='A'><b>13</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;number = int.Parse(Console.ReadLine());</td></tr><tr><td width=50%><b>14</b> &nbsp;</td><td width=50% class='A'><b>14</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fact = number;</td></tr><tr><td width=50%><b>15</b> &nbsp;</td><td width=50% class='A'><b>15</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for (i = number - 1; i &gt;= 1; i--)</td></tr><tr><td width=50%><b>16</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</td><td width=50%><b>16</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</td></tr><tr><td width=50%><b>17</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fact = fact * i;</td><td width=50%><b>17</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;fact = fact * i;</td></tr><tr><td width=50%><b>18</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td><td width=50%><b>18</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr><tr><td width=50% class='C'><b>19</b> &nbsp;</td><td width=50% class='C'><b>19</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.WriteLine("\nFactorial of Given Number is: "+fact);</td></tr><tr><td width=50%><b>20</b> &nbsp;</td><td width=50% class='A'><b>20</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Console.ReadLine();</td></tr><tr><td width=50%><b>21</b> &nbsp;</td><td width=50% class='A'><b>21</b> &nbsp;</td></tr><tr><td width=50%><b>22</b> &nbsp;</td><td width=50% class='A'><b>22</b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</td></tr><tr><td width=50%><b>23</b> &nbsp;</td><td width=50% class='A'><b>23</b> &nbsp;&nbsp;&nbsp;&nbsp;}</td></tr><tr><td width=50%><b>24</b> &nbsp;</td><td width=50% class='A'><b>24</b> }</td></tr></table></td></tr></table>
+<br><font size='-2' color='#BBBBBB'>S.Rodriguez, May 2003</font></BODY>
+</HTML>
